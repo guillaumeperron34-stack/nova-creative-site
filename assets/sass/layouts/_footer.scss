@@ -47,9 +47,9 @@ footer {
 // responsive
 
 @include respond-to($bp-md) {
-  .container {
-    
+  footer .container {
+    flex-direction: column;
+    gap: $spacing-sm;
+    align-items: center;
   }
 }
-
-

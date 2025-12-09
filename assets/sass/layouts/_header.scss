@@ -9,17 +9,18 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap : $spacing-lg
+    gap : $spacing-sm
 }
 
 .logo img {
     display: block;
-    height: 300px;
+    height: 100px;
     width: auto;
 }
 
 header ul {
     display: flex;
+    
     align-items: center;
     gap: $spacing-md;
     list-style: none;
@@ -74,11 +75,15 @@ header ul {
 }
 
 // Responsive Header (mobile)
-@include respond-to($bp-lg) {
+@include respond-to($bp-md) {
 
   /* 1. Le burger devient visible */
   .header-burger {
     display: flex;
+  }
+
+  header ul {
+    flex-direction: column;
   }
 
   /* 2. La nav est cachée par défaut */
