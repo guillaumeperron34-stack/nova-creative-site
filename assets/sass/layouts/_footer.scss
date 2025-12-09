@@ -32,7 +32,7 @@ footer {
         transition: 0.2s;
 
         &:hover {
-          color: $color-principal;
+          color: rgba($white, 0.8);
         }
       }
     }

@@ -50,7 +50,7 @@ h3 {
 }
 
 header {
-  background: whitesmoke;
+  background: #FEF8EE;
   color: #2E2E2E;
   padding: 1rem;
   border-bottom: 1px solid #CCCCCC;
@@ -115,7 +115,7 @@ header ul {
 }
 
 .header-burger.is-active span:nth-child(1) {
-  transform: translateY(0.4rem) rotate(45deg);
+  transform: translateY(0.375rem) rotate(45deg);
 }
 
 .header-burger.is-active span:nth-child(2) {
@@ -123,7 +123,7 @@ header ul {
 }
 
 .header-burger.is-active span:nth-child(3) {
-  transform: translateY(-0.4rem) rotate(-45deg);
+  transform: translateY(-0.375rem) rotate(-45deg);
 }
 
 @media (max-width: 768px) {
@@ -144,7 +144,7 @@ header ul {
     left: 0;
     width: 100%;
     padding: 2rem;
-    background: whitesmoke;
+    background: #FEF8EE;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   }
   /* 3. Nav affichée quand .is-open est active */
@@ -189,12 +189,12 @@ footer .footer-social ul li {
   margin-bottom: 0.4rem;
 }
 footer .footer-social ul li a {
-  color: whitesmoke;
+  color: #FEF8EE;
   text-decoration: none;
   transition: 0.2s;
 }
 footer .footer-social ul li a:hover {
-  color: #5A6E87;
+  color: rgba(254, 248, 238, 0.8);
 }
 footer .footer-copy {
   font-size: 0.8rem;
@@ -222,7 +222,7 @@ form input {
   border: 1px solid #CCCCCC;
   line-height: 1.6;
   color: #2E2E2E;
-  background: whitesmoke;
+  background: #FEF8EE;
 }
 form textarea {
   width: 100%;
@@ -282,6 +282,7 @@ form select:focus {
 .hero-right img {
   width: 100%;
   max-width: 700px;
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
@@ -339,7 +340,7 @@ form select:focus {
 
 .services-detailed {
   padding: 2rem;
-  background: whitesmoke;
+  background: #FEF8EE;
 }
 
 .services-detailed .container {
@@ -350,7 +351,7 @@ form select:focus {
 
 .process {
   padding: 2rem;
-  background: whitesmoke;
+  background: #FEF8EE;
 }
 
 .process .container {
@@ -457,7 +458,7 @@ form select:focus {
 
 .portfolio-intro {
   padding: 2rem 0;
-  background: whitesmoke;
+  background: #FEF8EE;
 }
 
 .portfolio-intro .container {
@@ -475,7 +476,7 @@ form select:focus {
 
 .portfolio-gallery {
   padding: 2rem 0;
-  background: whitesmoke;
+  background: #FEF8EE;
 }
 
 .portfolio-gallery .container {
@@ -554,7 +555,7 @@ form select:focus {
 
 .about-intro {
   padding: 2rem;
-  background: whitesmoke;
+  background: #FEF8EE;
 }
 
 .about-intro .container {
@@ -592,7 +593,7 @@ form select:focus {
 
 .about-team {
   padding: 2rem;
-  background: whitesmoke;
+  background: #FEF8EE;
 }
 
 .about-team .container {
@@ -667,7 +668,7 @@ form select:focus {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background: whitesmoke;
+  background: #FEF8EE;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
   padding: 1rem;
@@ -735,7 +736,7 @@ form select:focus {
 
 .contact-intro {
   padding: 2rem;
-  background: whitesmoke;
+  background: #FEF8EE;
 }
 
 .contact-intro .container {
@@ -827,7 +828,7 @@ form select:focus {
   justify-content: center;
   padding: 0.5rem 1rem;
   background-color: #5A6E87;
-  color: whitesmoke;
+  color: #FEF8EE;
   font-size: 1rem;
   font-weight: 500;
   border: none;
@@ -858,11 +859,11 @@ form select:focus {
 
 .btn-secondary:hover {
   background-color: #5A6E87;
-  color: whitesmoke;
+  color: #FEF8EE;
 }
 
 .service-card {
-  background-color: whitesmoke;
+  background-color: #FEF8EE;
   border-radius: 16px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
   padding: 1rem;
