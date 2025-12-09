@@ -1,0 +1,39 @@
+// couleurs
+
+$color-principal : #5A6E87;
+$color-dark : #445569;
+$color-light : #DBE1E8;
+$black : #131313;
+$grey-dark : #2E2E2E;
+$grey-mid  : #6A6A6A;
+$grey-light : #CCCCCC;
+$grey-lighter : #F2F2F2;
+$white : whitesmoke;
+
+// fonts
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+$font-principal : "Inter", serif;
+$font-secondary : "Poppins", sans-serif;
+
+// espacements
+
+$spacing-sm: 0.5rem;   // petit
+$spacing-md: 1rem;     // moyen
+$spacing-lg: 2rem;     // grand
+
+// typographie
+
+$normal-text : 1rem;
+$title-sm : 1.5rem;
+$title-m : 2rem;
+$title-big : 2.6rem;
+$line-height : 1.6;

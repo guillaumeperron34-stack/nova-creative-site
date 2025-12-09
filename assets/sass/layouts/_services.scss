@@ -1,0 +1,143 @@
+.services {
+    padding: $spacing-lg 0;
+    background-color: $grey-lighter;
+}
+
+.service-header {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    line-height: $line-height;
+    
+   
+
+    p {
+        color: $grey-mid;
+    }
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: $spacing-lg;
+    
+}
+
+.services-intro {
+  padding: $spacing-lg 0;
+  background: $grey-lighter;
+}
+
+.services-intro .container {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: $line-height;
+
+  p {
+    color: $grey-mid;
+    margin-top: $spacing-sm;
+  }
+}
+
+.services-detailed {
+  padding: $spacing-lg;
+  background: $white;
+}
+
+.services-detailed .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: $spacing-lg;
+}
+
+.process {
+  padding: $spacing-lg;
+  background: $white;
+}
+
+.process .container {
+ 
+  margin: 0 auto;
+  text-align: center;
+  line-height: $line-height;
+
+  h2 {
+    margin-bottom: $spacing-md;
+  }
+}
+
+.process-intro {
+  max-width: 700px;
+  text-align: center;
+  color: $grey-mid;
+  line-height: $line-height;
+  margin: 0 auto;
+  margin-bottom: $spacing-lg;
+}
+
+.process-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $spacing-lg;
+}
+
+.process-card {
+  text-align: left;
+
+  h3 {
+    margin-bottom: $spacing-md;
+  }
+
+  p {
+    color: $grey-mid;
+    line-height: $line-height;
+  }
+}
+
+.services-cta {
+  padding: $spacing-lg;
+  background: $grey-light;
+}
+
+.services-cta .container {
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: $spacing-md;
+
+  h2 {
+    margin-bottom: $spacing-md;
+  }
+
+  p {
+    color: $grey-mid;
+    line-height: $line-height;
+  }
+
+  .btn-cta {
+    align-self: flex-start;
+  }
+}
+
+// Responsive Services
+@include respond-to($bp-md) {
+  .services-list {
+    grid-template-columns: 1fr;
+    gap: $spacing-md;
+  }
+}
+
+@include respond-to($bp-md) {
+  .services-detailed .container {
+    grid-template-columns: 1fr;
+  }
+  .process-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+

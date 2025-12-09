@@ -1,0 +1,21 @@
+Polices
+
+Titres : Poppins (gras / semi-gras)
+
+Texte : Inter (normal)
+
+Couleurs
+
+primary → bleu gris moyen (#5C6B7A)
+→ boutons, liens importants, icônes
+
+secondary → bleu clair / turquoise (#8EC5DF)
+→ petits accents, badges, survols légers
+
+text → noir doux (#1C1C1C)
+
+background → gris très clair (#F5F7FA)
+
+white → #FFFFFF
+
+primary-hover → bleu gris assombri (#495664)

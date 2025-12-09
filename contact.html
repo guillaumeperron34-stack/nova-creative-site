@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Creative</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="./images/logo.png" alt="logo de Nova Creative" />
+        </div>
+        <nav
+          class="header-nav"
+          aria-label="Navigation principale"
+          id="main-nav"
+        >
+          <ul>
+            <li><a href="./index.html">Accueil</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./about.html">À propos</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="./contact.html" class="btn-cta">Démarrer un projet</a>
+        <button
+          class="header-burger"
+          aria-label="Ouvrir le menu"
+          aria-controls="main-nav"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-intro">
+        <div class="container">
+          <span class="section-tag">Contact</span>
+          <h1>Démarrons un projet ensemble</h1>
+          <p>
+            Vous avez une idée, un besoin précis ou l’envie de faire évoluer
+            votre identité visuelle ? Décrivez-nous votre projet et nous
+            reviendrons vers vous avec des premières pistes et des propositions
+            adaptées.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-main">
+        <div class="container">
+          <div class="contact-form">
+            <form>
+              <label for="name">Nom complet</label>
+              <input type="text" id="name" name="name" />
+              <label for="email">Adresse email</label>
+              <input type="email" id="email" name="email" />
+              <label for="project-type">Type de projet</label>
+              <select name="project-type" id="project-type">
+                <option value="branding">Identité visuelle / Branding</option>
+                <option value="web">Site web / Interface</option>
+                <option value="content">Contenus digitaux</option>
+                <option value="other">Autre</option>
+              </select>
+              <label for="message">Message</label>
+              <textarea name="message" id="message"></textarea>
+              <button type="submit" class="btn-secondary">Envoyer</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h2>Nos coordonnées</h2>
+            <ul>
+              <li>Email : contact@novacreative.com</li>
+              <li>Ville : Paris, France</li>
+            </ul>
+            <p>Nous répondons généralement sous 1 à 2 jours ouvrés</p>
+            <img
+              src="./images/contact1.png"
+              alt="Illustration représentant une personne envoyant un message en ligne"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-extra">
+        <div class="container">
+          <h2>Comment se passe la suite ?</h2>
+          <p>
+            Après votre message, nous revenons vers vous par email pour vous
+            poser éventuellement quelques questions complémentaires et vous
+            proposer une première idée de collaboration.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-brand">
+          <img src="./images/logo.png" alt="Logo Nova Creative" />
+        </div>
+
+        <div class="footer-contact">
+          <p>Email : contact@novacreative.com</p>
+        </div>
+        <div class="footer-social">
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Behance</a></li>
+          </ul>
+        </div>
+        <div class="footer-copy">
+          <p>© 2025 Nova Creative — Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+form {
+
+    label {
+        color: $grey-mid;
+        font-size: 0.9rem;
+        margin-bottom: $spacing-sm;
+        text-align: left;
+        font-family: $font-principal;
+    }
+
+    input {
+        width: 100%;
+        padding: 0 $spacing-sm;
+        border-radius: 8px;
+        border: 1px solid $grey-light;
+        line-height: $line-height;
+        color: $grey-dark;
+        background: $white;
+    }
+
+    textarea {
+        width: 100%;
+        border-radius: 8px;
+        border: 1px solid $grey-light;
+        padding: $spacing-md;
+        color: $grey-dark;
+        height: 150px;
+    }
+
+    select {
+        padding: $spacing-md;
+        border-radius: 8px;
+        border: 1px solid $grey-light;
+    }
+
+    input:focus, 
+    textarea:focus, 
+    select:focus {
+        border: 1px solid $color-principal;
+        outline: none;
+    }
+}

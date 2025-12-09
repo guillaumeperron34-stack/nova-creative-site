@@ -1,0 +1,116 @@
+header {
+    background: $white;
+    color: $grey-dark;
+    padding: $spacing-md;
+    border-bottom: 1px solid $grey-light;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap : $spacing-lg
+}
+
+.logo img {
+    display: block;
+    height: 300px;
+    width: auto;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: $spacing-md;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav a {
+    font-family: $normal-text;
+    color : $grey-mid;
+    text-decoration: none;
+    padding: $spacing-sm 0;
+    transition: color 0.2s ease, opacity 0.2s ease;
+}
+.header-nav a:hover {
+    color: $color-principal;
+    opacity: 0.9;
+}
+
+.header-burger {
+    width: 2rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    gap: 0.1rem;
+    display: none;
+}
+
+.header-burger span {
+    display: block;
+    width: 1.8rem;
+    height: 0.25rem;
+    border-radius: 50px;
+    
+    transition: 0.3s ease;
+    background: $color-principal;
+}
+
+.header-burger.is-active span:nth-child(1) {
+    transform: translateY(0.4rem) rotate(45deg);
+}
+.header-burger.is-active span:nth-child(2) {
+    opacity: 0;
+}
+.header-burger.is-active span:nth-child(3) {
+    transform: translateY(-0.4rem) rotate(-45deg);
+}
+
+// Responsive Header (mobile)
+@include respond-to($bp-lg) {
+
+  /* 1. Le burger devient visible */
+  .header-burger {
+    display: flex;
+  }
+
+  /* 2. La nav est cachée par défaut */
+  .header-nav {
+    display: none;
+    flex-direction: column;
+    gap: $spacing-md;
+    position: absolute;
+    top: 100%; /* juste sous le header */
+    left: 0;
+    width: 100%;
+    padding: $spacing-lg;
+    background: $white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+
+  /* 3. Nav affichée quand .is-open est active */
+  .header-nav.is-open {
+    display: flex;
+  }
+
+  /* 4. Le CTA disparaît sur mobile (option pro) */
+  .btn-cta {
+    display: none;
+  }
+
+  /* 5. Réorganisation du container pour logo + burger */
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; // nécessaire pour nav en position absolute
+  }
+}
+

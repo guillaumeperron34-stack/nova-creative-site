@@ -1,0 +1,63 @@
+.hero {
+    padding: $spacing-lg 0;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: $spacing-lg;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+    max-width: 560px;
+    
+    .hero-tag {
+        color: $color-principal;
+        font-size: 0.9rem;
+        font-weight: 600;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+       
+    }
+
+    h1 {
+        gap: $spacing-md;
+    }
+    
+    p {
+        color: $grey-mid;
+        line-height: $line-height;
+    }
+
+    a {
+        align-self: flex-start;
+    }
+}
+
+.hero-right img {
+    width: 100% ;
+    max-width: 700px;
+}
+
+// Responsive - Hero
+@include respond-to($bp-md) {
+  .hero .container {
+    flex-direction: column;
+    text-align: left; // tu peux mettre center si tu préfères une approche landing page
+    gap: $spacing-lg;
+  }
+
+  .hero-right {
+    margin-top: $spacing-lg;
+    display: flex;
+    justify-content: center; // centre l’image
+  }
+
+  .hero-right img {
+    max-width: 100%; // l’image prend toute la largeur dispo
+  }
+}

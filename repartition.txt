@@ -1,0 +1,81 @@
+Accueil — index.html
+
+Hero principal : Hero.png
+
+Bloc “Nos services” (aperçu)
+
+Service 1 : Branding → branding.png
+
+Service 2 : Webdesign / UI → UIUX.png
+
+Service 3 : Social media / contenu → illustration.png (ou une autre si tu préfères)
+
+Aperçu portfolio (3 projets)
+
+Projet 1 : portfolio.png
+
+Projet 2 : portfolio1.png
+
+Projet 3 : portfolio2.png
+
+Logo dans le header / footer : logo.png
+
+
+
+Page Services — services.html
+
+Tu as de quoi combiner icônes simples + visuels plus détaillés :
+
+Icônes simples pour les “têtes de section” :
+
+icone1.png → Branding
+
+icone2.png → Webdesign
+
+icone3.png → Social media / contenus
+
+Illustrations plus grandes (à côté des textes) :
+
+branding.png (encore, ou dans une autre mise en page)
+
+UIUX.png
+
+illustration.png
+
+
+
+Page Portfolio — portfolio.html
+
+Ici, on met toute la galerie :
+
+portfolio.png
+
+portfolio1.png
+
+portfolio2.png
+
+portfolio3.png
+
+portfolio4.png
+
+portfolio5.png
+
+
+
+
+Page À propos — about.html
+
+Bloc “Notre équipe” : equipe.png (grande illustration de groupe)
+
+Portraits individuels :
+
+portrait1.png → Membre 1
+
+portrait2.png → Membre 2
+
+
+
+
+Page Contact — contact.html
+
+Illustration principale de la page : contact1.png

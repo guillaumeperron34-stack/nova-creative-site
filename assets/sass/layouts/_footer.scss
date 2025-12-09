@@ -1,0 +1,55 @@
+footer {
+  background: $color-dark;
+  padding: $spacing-lg 0;
+  color: $color-light;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; // important pour aligner les colonnes en haut
+    gap: $spacing-md; // espace horizontal entre les colonnes
+  }
+
+  .footer-brand img {
+    max-width: 120px;
+    border-radius: 10px; // taille propre du logo
+  }
+
+  .footer-contact p {
+    color: $color-light;
+    line-height: $line-height;
+  }
+
+  .footer-social ul {
+    list-style: none;
+
+    li {
+      margin-bottom: 0.4rem;
+
+      a {
+        color: $white;
+        text-decoration: none;
+        transition: 0.2s;
+
+        &:hover {
+          color: $color-principal;
+        }
+      }
+    }
+  }
+
+  .footer-copy {
+    font-size: 0.8rem;
+    color: $grey-light;
+  }
+}
+
+// responsive
+
+@include respond-to($bp-md) {
+  .container {
+    
+  }
+}
+
+

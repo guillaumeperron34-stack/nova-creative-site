@@ -1,0 +1,40 @@
+.btn-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: $spacing-sm $spacing-md;
+    background-color:  $color-principal;
+    color: $white;
+    font-size: $normal-text;
+    font-weight: 500;
+    border: none;
+    border-radius: 999px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+    transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    
+}
+
+.btn-cta:hover {
+    background-color: darken($color-principal, 5%);
+    transform: translateY(-1px);
+    box-shadow: 0 14px 26px rgba(0, 0, 0, 0.12);
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: $spacing-sm $spacing-md;
+    border: 1px solid $color-principal;
+    color: $color-principal;
+    background: transparent;
+    border-radius: 999px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-secondary:hover {
+    background-color: $color-principal;
+    color: $white;
+}
